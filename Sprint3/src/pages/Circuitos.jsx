@@ -1,5 +1,5 @@
 import React from 'react'
-import Info from "/src/components/info-circuitos/infoCircuitos.jsx" 
+import Info from "/src/components/info-circuitos/index.jsx" 
 
 
 export default function Circuitos() {

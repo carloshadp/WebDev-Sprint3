@@ -10,6 +10,7 @@ import {
 import Login from './pages/Login.jsx';
 import Registrar from './pages/Registrar.jsx';
 import Circuitos from './pages/Circuitos.jsx';
+import Pilotos from './pages/Pilotos.jsx';
 
 const Rotas = createBrowserRouter([
   {
@@ -31,7 +32,11 @@ const Rotas = createBrowserRouter([
       {
         path: "/circuitos",
         element: <Circuitos/>
-      }
+      },
+      {
+        path: "/pilotos",
+        element: <Pilotos/>
+      },
     ]
   }
 ])

@@ -2,12 +2,13 @@ import React from 'react'
 
 
 
-export default function Circuitos() {
+
+export default function Pilotos() {
   return (
     <>
       <div className="container">
-        <h2>Circuitos</h2>
-        <infoCircuitos/>
+        <h2>Pilotos</h2>
+        
       </div>
     </>
   )

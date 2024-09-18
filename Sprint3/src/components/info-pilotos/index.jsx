@@ -1,17 +1,19 @@
+import PilotoStats from "../PilotoStats";
 
 
 
-function infoPilotos(){
+
+function InfoPilotos(){
     const infos = [
         
     ]
     
     return(
         <div className="infos">
-        <Pilotos dados={infos} />
+        {/* <PilotoStats dados={infos} /> */}
         </div>
     )
 }
 
 
-export default infoPilotos;
+export default InfoPilotos;
