@@ -25,23 +25,25 @@ export default function Login() {
   return (
     
     <>
-    <div className="container">
-      <h2>Login</h2>
-      <div>
-        <div>
+      <div class="flex flex-col justify-center items-center p-10" >
+        <div class="flex flex-col justify-center items-center gap-2 bg-sky-950 border rounded-xl h-60 w-96">
+          <h2>Login</h2>
+          <div class="gap-2">
+            <div class="flex gap-2">
+            <img src="/src/assets/user.svg" width="16px" />
+              <input class="rounded-lg mb-2" type="email" placeholder="Email" value={user} onChange={(e) => setUser(e.target.value)} required />
+            </div>
 
-          <img src="/src/assets/pessoa.svg" width="16px"/>
-          <input type="email" placeholder="Email" value={user} onChange={(e) => setUser(e.target.value)} required/>
-        </div>
+            <div class="flex gap-2"  >
+              <img src="/src/assets/lock.svg" width="16px" />
+              <input class="rounded-lg" type="password" placeholder="Senha" value={senha} onChange={(e) => setSenha(e.target.value)} required />
+            </div>
 
-        <div>
-          <img src="/src/assets/lock.svg" width="16px"/>
-          <input type="password" placeholder="Senha" value={senha} onChange={(e) => setSenha(e.target.value)} required/>
+          </div>
+            <button class="hover:text-sky-400 mt-2" id="entrar" onClick={Login} type="submit">  Entrar</button>
+          <li class="list-none hover:text-sky-400"><NavLink to="/register" >Não tem conta? Registre-se</NavLink></li>
         </div>
-        <button id="entrar" onClick={Login} type="submit">  Entrar</button>
       </div>
-      <li><NavLink  to="/register" >Não tem conta? Registre-se</NavLink></li>
-    </div>
     </>
   )
 }
