@@ -9,6 +9,7 @@ export default function Registrar() {
   const [repetirSenha, setRepetirSenha] = useState("")
 
   function Registrar(){
+    console.log(listaContas)
     if (criarSenha === "" || criarUser === ""){
       alert("Não pode ter campos nulos.");
       return
@@ -37,18 +38,18 @@ export default function Registrar() {
           <h2>Registre-se</h2>
           <div class="flex flex-col gap-2 p-3" >
             <div class="flex gap-2">
-              <img src="/src/assets/pessoa.svg" width="16px" />
-              <input class="rounded-lg border border-sky-700" type="email" placeholder="Email" value={criarUser} onChange={(e) => setNewUser(e.target.value)} required />
+              <img src="/src/assets/User.svg" width="16px" />
+              <input class="rounded-lg border border-sky-700 text-black" type="email" placeholder="Email" value={criarUser} onChange={(e) => setNewUser(e.target.value)} required />
             </div>
 
             <div class="flex gap-2">
               <img src="/src/assets/lock.svg" width="16px" />
-              <input class="rounded-lg border border-sky-700" type="password" placeholder="Senha" value={criarSenha} onChange={(e) => setNewSenha(e.target.value)} required />
+              <input class="rounded-lg border border-sky-700 text-black" type="password" placeholder="Senha" value={criarSenha} onChange={(e) => setNewSenha(e.target.value)} required />
             </div>
 
             <div class="flex gap-2">
               <img src="/src/assets/lock.svg" width="16px" />
-              <input class="rounded-lg border border-sky-700" type="password" placeholder="Repetir senha" value={repetirSenha} onChange={(e) => setRepetirSenha(e.target.value)} required />
+              <input class="rounded-lg border border-sky-700 text-black" type="password" placeholder="Repetir senha" value={repetirSenha} onChange={(e) => setRepetirSenha(e.target.value)} required />
             </div>
           </div>
           <button class="hover:text-sky-400 self-center" onClick={Registrar}>Criar conta</button>

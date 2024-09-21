@@ -11,6 +11,7 @@ import Login from './pages/Login.jsx';
 import Registrar from './pages/Registrar.jsx';
 import Circuitos from './pages/Circuitos.jsx';
 import Pilotos from './pages/Pilotos.jsx';
+import Equipes from './pages/Equipes.jsx';
 
 const Rotas = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const Rotas = createBrowserRouter([
         path: "/pilotos",
         element: <Pilotos/>
       },
+      {
+        path: "/equipes",
+        element: <Equipes/>
+      }
     ]
   }
 ])
