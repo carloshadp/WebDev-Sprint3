@@ -100,9 +100,9 @@ function InfoPilotos(){
     ]
     
     return(
-        <div className="infos">
-         <PilotoStats dados={infos} /> 
-        </div>
+        
+        <PilotoStats dados={infos} /> 
+        
     )
 }
 
