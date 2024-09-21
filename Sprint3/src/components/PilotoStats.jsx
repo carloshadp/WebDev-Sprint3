@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Pista({dados}) {
+export default function PilotoStats({dados}) {
   return (
     <>
       {

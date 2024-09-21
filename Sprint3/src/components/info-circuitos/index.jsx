@@ -58,9 +58,9 @@ function infoCircuitos(){
     ]
 
     return(
-        <div className="infos">
-            <Pista dados={infos} />
-        </div>
+        
+        <Pista dados={infos} />
+       
     )
 }
 

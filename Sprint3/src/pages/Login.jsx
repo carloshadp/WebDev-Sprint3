@@ -31,12 +31,12 @@ export default function Login() {
           <div class="gap-2">
             <div class="flex gap-2">
             <img src="/src/assets/user.svg" width="16px" />
-              <input class="rounded-lg mb-2" type="email" placeholder="Email" value={user} onChange={(e) => setUser(e.target.value)} required />
+              <input class="rounded-lg mb-2 text-black" type="email" placeholder="Email" value={user} onChange={(e) => setUser(e.target.value)} required />
             </div>
 
-            <div class="flex gap-2"  >
+            <div class="flex gap-2 "  >
               <img src="/src/assets/lock.svg" width="16px" />
-              <input class="rounded-lg" type="password" placeholder="Senha" value={senha} onChange={(e) => setSenha(e.target.value)} required />
+              <input class="rounded-lg text-black" type="password" placeholder="Senha" value={senha} onChange={(e) => setSenha(e.target.value)} required />
             </div>
 
           </div>
