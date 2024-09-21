@@ -13,22 +13,27 @@ export default function Registrar() {
     if (criarSenha === "" || criarUser === ""){
       alert("Não pode ter campos nulos.");
       return
-  }
-  if(!listaContas.includes(criarUser) && criarUser !== null){
-      listaContas.push(criarUser);
-      localStorage.setItem('users', JSON.stringify(listaContas));
-      alert("Conta criada");
-  }else{
-      alert("Este user ja tem conta, Volte e faca login")
-  }
-  if(!listaSenhas.includes(criarSenha) && criarSenha !== null){
-      listaSenhas.push(criarSenha);
-      localStorage.setItem('senhas', JSON.stringify(listaSenhas));
-  }
-  
-  if(listaContas.includes(criarUser) && listaSenhas.includes(criarSenha)){
-      alert("Conta criada, pode voltar ao login!")
-  }
+    }
+    if (criarSenha !== repetirSenha){
+      alert("As senhas são distintas!")
+      return
+    }
+    if(!listaContas.includes(criarUser) && criarUser !== null){
+        listaContas.push(criarUser);
+        localStorage.setItem('users', JSON.stringify(listaContas));
+        alert("Conta criada");
+        return 
+    }else{
+        alert("Este user ja tem conta, Volte e faca login")
+    }
+    if(!listaSenhas.includes(criarSenha) && criarSenha !== null){
+        listaSenhas.push(criarSenha);
+        localStorage.setItem('senhas', JSON.stringify(listaSenhas));
+    }
+    
+    if(listaContas.includes(criarUser) && listaSenhas.includes(criarSenha)){
+        alert("Conta criada, pode voltar ao login!")
+    }
   
   }
   return (

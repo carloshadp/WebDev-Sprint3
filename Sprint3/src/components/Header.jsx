@@ -6,7 +6,7 @@ export default function Header(){
         <>
             <header class="flex justify-around h-20 items-center bg-sky-950">
                 <div>
-                    <h1>Fórmula-E Manager </h1>
+                    <h1>Fórmula-E Manager Wiki</h1>
                 </div>
                 <nav>
                     <ul class="flex gap-4">
