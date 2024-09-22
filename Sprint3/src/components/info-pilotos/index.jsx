@@ -13,6 +13,7 @@ function InfoPilotos(){
             equipe: "Jaguar TCS Racing",
             vitorias: "7 / 63",
             podios: "20 / 63",
+            nomePais: "Nova Zelândia"
         },
         {
             nomePiloto: "Mitch Evans",
@@ -22,6 +23,8 @@ function InfoPilotos(){
             equipe: "Jaguar TCS Racing",
             vitorias: "12 / 111",
             podios: "31 / 111",
+            nomePais: "Nova Zelândia"
+        
         },
         {
             nomePiloto: "Pascal Wehrlein",
@@ -31,6 +34,7 @@ function InfoPilotos(){
             equipe: "TAG Heuer Porsche",
             vitorias: "7 / 80",
             podios: "12 / 80",
+            nomePais: "Alemanha"
         },
         {
             nomePiloto: "António Félix da Costa",
@@ -40,6 +44,8 @@ function InfoPilotos(){
             equipe: "TAG Heuer Porsche",
             vitorias: "12 / 128",
             podios: "23 / 128",
+            nomePais: "Portugal"
+         
         },
         {
             nomePiloto: "Oliver Rowland",
@@ -49,6 +55,7 @@ function InfoPilotos(){
             equipe: "Nissan",
             vitorias: "3 / 78",
             podios: "12 / 78",
+            nomePais: "Grã-Bretanha"
         },
         {
             nomePiloto: "Jean-Eric Vergne",
@@ -58,6 +65,8 @@ function InfoPilotos(){
             equipe: "Peugeot TotalEnergies",
             vitorias: "11 / 130",
             podios: "36 / 130",
+            nomePais: "França"
+   
         },
         {
             nomePiloto: "Jake Dennis",
@@ -67,15 +76,17 @@ function InfoPilotos(){
             equipe: "Andretti Autosport",
             vitorias: "6 / 63",
             podios: "21 / 63",
+            nomePais: "Grã-Bretanha"
         },
         {
             nomePiloto: "Maximilian Günther",
             bandeira: "/src/imgs/Bandeiras/ale.svg",
-            foto: "/src/imgs/Fotos-Pilotos/Maximilian Günther.webp",
+            foto: "/src/imgs/Fotos-Pilotos/Maximilian Günther.jpg",
             idade: "27",
             equipe: "Maserati MSG Racing",
             vitorias: "5 / 83",
             podios: "10 / 83",
+            nomePais: "Alemanha"
         },
         {
             nomePiloto: "Robin Frijns",
@@ -85,15 +96,18 @@ function InfoPilotos(){
             equipe: "BMW M Team WRT",
             vitorias: "2 / 102",
             podios: "16 / 102",
+            nomePais: "Países Baixos"
+          
         },
         {
             nomePiloto: "Stoffel Vandoorne",
             bandeira: "/src/imgs/Bandeiras/bel.svg",
-            foto: "/src/imgs/Fotos-Pilotos/Stoffel Vandoorne.webp",
+            foto: "/src/imgs/Fotos-Pilotos/Stoffel Vandoorne.jpeg",
             idade: "32",
             equipe: "Peugeot TotalEnergies",
             vitorias: "3 / 87",
             podios: "16 / 87",
+            nomePais: "Bélgica"
         },
         
         

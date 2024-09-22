@@ -5,8 +5,8 @@ import Info from "/src/components/info-circuitos/index.jsx"
 export default function Circuitos() {
   return (
     <>
-      <div className="container">
-        <h2>Circuitos</h2>
+      <div class="sm:mt-24 sm:flex sm:flex-col">
+        <h2 class="sm:self-center sm:text-4xl">Circuitos</h2>
         <Info/>
       </div>
     </>

@@ -16,6 +16,7 @@ function infoEquipes(){
             vitorias: "16/ 111",
             podios: "46 / 111",
             poles: "10 / 111",
+      
         },
         {
             logo: "/src/imgs/Logo-Times/TAGHeuerPorsche.webp",
@@ -23,12 +24,13 @@ function infoEquipes(){
             pais: "/src/imgs/Bandeiras/ale.svg",
             pais_nome: "Alemanha",
             foto_piloto_1: "/src/imgs/Fotos-Pilotos/António Félix da Costa.webp",
-            foto_piloto_2: "/src/imgs/Fotos-Pilotos/Pascal Wehrlein",
+            foto_piloto_2: "/src/imgs/Fotos-Pilotos/Pascal Wehrlein.webp",
             nome_piloto_1: "António Félix",
             nome_piloto_2: "Pascal Wehrlein",
             vitorias: "12 / 74",
             podios: "22 / 74",
-            poles: "6 / 17" ,       
+            poles: "6 / 74" , 
+          
         },
         {
             logo: "/src/imgs/Logo-Times/ds-penske.webp",
@@ -36,12 +38,13 @@ function infoEquipes(){
             pais: "/src/imgs/Bandeiras/chi.svg",
             pais_nome: "China",
             foto_piloto_1: "/src/imgs/Fotos-Pilotos/Jean-Eric Vergne.webp",
-            foto_piloto_2: "/src/imgs/Fotos-Pilotos/Stoffel Vandoorne.webp",
+            foto_piloto_2: "/src/imgs/Fotos-Pilotos/Stoffel Vandoorne.jpeg",
             nome_piloto_1: "Jean-Eric",
             nome_piloto_2: "Stoffel V.",
             vitorias: "16 / 111",
             podios: "50 / 111",
             poles: "24 / 111",
+
         },
         {
             logo: "/src/imgs/Logo-Times/AndrettiAutosport.webp",
@@ -55,6 +58,7 @@ function infoEquipes(){
             vitorias: "11 / 132 ",
             podios: "37 / 132",
             poles: "13 / 132",
+
         },
         {
             logo: "/src/imgs/Logo-Times/NissaneDams.webp",
@@ -68,6 +72,7 @@ function infoEquipes(){
             vitorias: "19 / 132",
             podios: "47 / 132",
             poles: "23 / 132",
+    
         },
         {
             logo: "/src/imgs/Logo-Times/McLaren.webp",
@@ -75,12 +80,13 @@ function infoEquipes(){
             pais: "/src/imgs/Bandeiras/ing.svg",
             pais_nome: "Reino Unido",
             foto_piloto_1: "/src/imgs/Fotos-Pilotos/Jake-Hugges.webp",
-            foto_foto_piloto_2: "/src/imgs/Fotos-Pilotos/Sam-Bird.webp",
+            foto_foto_piloto_2: "/src/imgs/Fotos-Pilotos/Sam Bird.png",
             nome_piloto_1: "Jake Hughes",
             nome_piloto_2: "Sam Bird",
             vitorias: "1 / 32",
             podios: "3 / 32",
-            poles: "4 / 32",   
+            poles: "4 / 32",  
+
         },
         {
             logo: "/src/imgs/Logo-Times/EnvisionVirginRacing.webp",
@@ -94,9 +100,11 @@ function infoEquipes(){
             vitorias: "16 / 132",
             podios: "53 / 132",
             poles: "15 / 132",
+
+        
         },
         {
-            logo: "/src/imgs/Logo-Times/MaseratiRacing.jpg",
+            logo: "/src/imgs/Logo-Times/Maserati_logo_2.svg",
             nome: "Maserati MSG Racing",
             pais: "/src/imgs/Bandeiras/ita.svg",
             pais_nome: "Italia",
@@ -106,7 +114,8 @@ function infoEquipes(){
             nome_piloto_2: "Jehan Draubala",
             vitorias: "2 / 32",
             podios: "6 / 32",
-            poles: "2 / 32",      
+            poles: "2 / 32",  
+
         },
         {
             logo: "/src/imgs/Logo-Times/AudiSportABTSchaeffler.webp",
@@ -120,6 +129,7 @@ function infoEquipes(){
             vitorias: "14 / 115",
             podios: "47 / 115",
             poles: "6 / 115",
+
         },
         {
             logo: "/src/imgs/Logo-Times/MahindraRacing.webp",
@@ -127,12 +137,13 @@ function infoEquipes(){
             pais: "/src/imgs/Bandeiras/ind.svg",
             pais_nome: "Índia",
             foto_piloto_1: "/src/imgs/Fotos-Pilotos/Edoardo Mortara.webp",
-            foto_piloto_2: "/src/imgs/Fotos-Pilotos/Jordan king.webp",
+            foto_piloto_2: "/src/imgs/Fotos-Pilotos/Jordan_King.jpg",
             nome_piloto_1: "Edoardo Mortara",
             nome_piloto_2: "Jordan King",
             vitorias: "5 / 131",
             podios: "24 / 131",
             poles: "11 / 131",
+
             
         },
         
