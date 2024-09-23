@@ -39,7 +39,7 @@ export default function Registrar() {
   return (
     <>
       <section className="container" class="sm:flex sm:flex-col sm:justify-center sm:items-center sm:p-10  sm:m-28">
-        <div class="sm:flex sm:flex-col sm:justify-center sm:items-center bg-sky-950 sm:border sm:rounded-xl sm:h-60 sm:w-96">
+        <div class="bg-gradient-to-t from-black to-blue-900 sm:flex sm:flex-col sm:justify-center sm:items-center bg-sky-950 sm:border sm:rounded-xl sm:h-60 sm:w-96">
           <h2>Registre-se</h2>
           <div class="sm:flex sm:flex-col sm:gap-2 sm:p-3" >
             <div class="sm:flex sm:gap-2">

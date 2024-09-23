@@ -9,9 +9,12 @@ export default function Header(){
             <header class=" bg-sky-950 fixed left-0 top-0 w-full">
                 <div className="telaGrande">
                     <section class="sm:h-20 sm:flex sm:justify-center sm:items-center sm:gap-52">
-                        <div class="sm:size-1/4 sm:text-nowrap">
-                            <h1 class="sm:px-0.5">Fórmula-E Manager Wiki</h1>
+                        <div class="sm:size-1/4 sm:text-nowrap sm:flex sm:items-center sm:gap-4">
                             <div>
+                                <img src="/src/imgs/Favicon/Nosso favicon.png" class="sm:w-12"/>
+                            </div>
+                            <div>
+                                <h1 class="sm:px-0.5">Fórmula-E Manager Wiki</h1>
                                 <h3 class="sm:text-xs text-sky-400 sm:ml-1">A Wiki for players</h3>
                             </div>
                         </div>

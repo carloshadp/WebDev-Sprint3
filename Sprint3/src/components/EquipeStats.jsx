@@ -9,7 +9,7 @@ export default function PilotoStats({dados}) {
             <section>
                 <section key={index} class="sm:grid sm:grid-cols-2 sm:m-14">
                     <div class="sm:grid sm:grid-cols-2">
-                        <div class="bg-slate-300 sm:rounded-full sm:w-52">
+                        <div class="bg-slate-300 border border-white sm:rounded-full sm:w-52">
                             <img class="sm:w-56" src={card.logo} />
                         </div>
                         <div class="sm:grid sm:grid-rows-2 sm:items-center">

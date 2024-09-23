@@ -25,8 +25,8 @@ export default function Login() {
   return (
     
     <>
-      <section class="sm:flex sm:flex-col sm:justify-center sm:items-center sm:p-10 sm:m-28" >
-        <div class="sm:flex sm:flex-col sm:justify-center sm:items-center sm:gap-2 bg-sky-950 sm:border sm:rounded-xl sm:h-60 sm:w-96">
+      <section class=" sm:flex sm:flex-col sm:justify-center sm:items-center sm:p-10 sm:m-28" >
+        <div class="bg-gradient-to-t from-black to-blue-900 sm:flex sm:flex-col sm:justify-center sm:items-center sm:gap-2 bg-sky-950 sm:border sm:rounded-xl sm:h-60 sm:w-96">
           <h2>Login</h2>
           <div class="sm:gap-2">
             <div class="sm:flex sm:gap-2">

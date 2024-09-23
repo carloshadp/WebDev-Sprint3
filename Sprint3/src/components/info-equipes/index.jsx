@@ -2,8 +2,23 @@ import EquipeStats from "../EquipeStats"
 
 
 function infoEquipes(){
-
+    
     const informacoes = [
+        {
+            logo: "/src/imgs/Logo-Times/MahindraRacing.webp",
+            nome: "Mahindra Racing",
+            pais: "/src/imgs/Bandeiras/ind.svg",
+            pais_nome: "Índia",
+            foto_piloto_1: "/src/imgs/Fotos-Pilotos/Edoardo Mortara.webp",
+            foto_piloto_2: "/src/imgs/Fotos-Pilotos/Jordan_King.jpg",
+            nome_piloto_1: "Edoardo Mortara",
+            nome_piloto_2: "Jordan King",
+            vitorias: "5 / 131",
+            podios: "24 / 131",
+            poles: "11 / 131",
+        
+            
+        },
         {
             logo: "/src/imgs/Logo-Times/JaguarRacing.webp",
             nome: "Jaguar TCS Racing",
@@ -130,21 +145,6 @@ function infoEquipes(){
             podios: "47 / 115",
             poles: "6 / 115",
 
-        },
-        {
-            logo: "/src/imgs/Logo-Times/MahindraRacing.webp",
-            nome: "Mahindra Racing",
-            pais: "/src/imgs/Bandeiras/ind.svg",
-            pais_nome: "Índia",
-            foto_piloto_1: "/src/imgs/Fotos-Pilotos/Edoardo Mortara.webp",
-            foto_piloto_2: "/src/imgs/Fotos-Pilotos/Jordan_King.jpg",
-            nome_piloto_1: "Edoardo Mortara",
-            nome_piloto_2: "Jordan King",
-            vitorias: "5 / 131",
-            podios: "24 / 131",
-            poles: "11 / 131",
-
-            
         },
         
        
