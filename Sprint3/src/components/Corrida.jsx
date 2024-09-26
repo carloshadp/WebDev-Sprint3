@@ -5,19 +5,19 @@ const CarRace = () => {
   const [cars, setCars] = useState([
     { x: 0,
       y: 100, 
-      speed: Math.random() * 0.05 + 0.012 },
+      speed: Math.random() * 0.00005 + 0.012 },
     { x: 0,
       y: 135,
-      speed: Math.random() * 0.05 + 0.012 },
+      speed: Math.random() * 0.00005 + 0.012 },
     { x: 0,
       y: 185,
-      speed: Math.random() * 0.05 + 0.012 },
+      speed: Math.random() * 0.00005 + 0.012 },
     { x: 0,
       y: 235,
-      speed: Math.random() * 0.05 + 0.012 },
+      speed: Math.random() * 0.00005 + 0.012 },
     { x: 0,
       y: 270,
-      speed: Math.random() * 0.05 + 0.012 },
+      speed: Math.random() * 0.00005 + 0.012 },
   ]);
   const [countdown, setCountdown] = useState(3);
   const [winner, setWinner] = useState(null);
