@@ -6,7 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-      'menu-imagem': "url('/src/assets/Menu.svg')"
+      backgroundImage: {
+        'menu-imagem': "url('/src/assets/Menu.svg')",
+      },
+      width: {
+        'weed24': '24px',
+      },
+      height: {
+        'high24' : '24px',
+      }
     },
   },
   plugins: [],

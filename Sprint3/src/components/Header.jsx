@@ -3,11 +3,12 @@ import { NavLink } from "react-router-dom";
 import '/src/Stylesheets/header.css'
 
 export default function Header(){
+
     return(
         <>  
                 
             <header class=" bg-sky-950 fixed left-0 top-0 w-full">
-                <div className="telaGrande">
+                <div className="hidden md:block">
                     <section class="sm:h-20 sm:flex sm:justify-center sm:items-center sm:gap-52">
                         <div class="sm:size-1/4 sm:text-nowrap sm:flex sm:items-center sm:gap-4">
                             <div>
@@ -33,17 +34,22 @@ export default function Header(){
 
 
 
-                <div className="container-mobile"> 
+                <div class="md:hidden"> 
                     <section class="h-20 flex  justify-around  items-center">
-                        <input type="checkbox" id="menu" className="container-botao"/>
-                        <label htmlFor="menu" class="bg-[url('/src/assets/Menu.svg')] bg-no-repeat bg-center"></label>
-                        <ul className="listmenu">               
+                        <button id="menuButton" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-50 hover:text-white hover:bg-gray-700 focus:outline-none focus: bg-gray-700 focus:text-white trasition duration-75 ease-in-out" aria-label="Menu" aria-expanded="false">
+                            <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox='0 0 24 24'>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h116M4 18h16"></path>
+                            </svg>
+                        </button>
+                        <div id="menu" class="hidden md:hidden">
+                            <ul class="px-2 pt-2 pd-3 sm:px-3">           
                                 <li><NavLink to="/">Home</NavLink> </li>
                                 <li><NavLink to="/login">Login</NavLink></li>
                                 <li><NavLink to="/circuitos">Circuitos</NavLink></li>
-                                <li><NavLink to="/pilotos">Pilotos</NavLink></li>
+                                <li><NavLink to="/pilotos" >Pilotos</NavLink></li>
                                 <li><NavLink to="/equipes">Equipes</NavLink></li>
-                        </ul>       
+                            </ul> 
+                        </div>       
                         <div class="size-1/4 text-nowrap">
                             <h1 class="px-0.5">Fórmula-E Manager Wiki</h1>
                             <div>
@@ -52,6 +58,9 @@ export default function Header(){
                         </div>
                     </section> 
                 </div>
+
+                <script src="/Sprint3/src/components/Header.js"></script>
             </header>
         </>
     )}
+    
