@@ -25,22 +25,22 @@ export default function Login() {
   return (
     
     <>
-      <section class=" sm:flex sm:flex-col sm:justify-center sm:items-center sm:p-10 sm:m-28" >
-        <div class="bg-gradient-to-t from-black to-blue-900 sm:flex sm:flex-col sm:justify-center sm:items-center sm:gap-2 bg-sky-950 sm:border sm:rounded-xl sm:h-60 sm:w-96">
+      <section class="flex flex-col justify-center items-center p-10 m-28" >
+        <div class="bg-gradient-to-t from-black to-blue-900 flex flex-col justify-center items-center gap-2 bg-sky-950 border rounded-xl h-60 sm:w-96 w-64">
           <h2>Login</h2>
-          <div class="sm:gap-2">
-            <div class="sm:flex sm:gap-2">
+          <div class="gap-2">
+            <div class="flex gap-2">
             <img src="/src/assets/user.svg" width="16px" />
-              <input class="sm:rounded-lg sm:mb-2 text-black" type="email" placeholder="Email" value={user} onChange={(e) => setUser(e.target.value)} required />
+              <input class="rounded-lg mb-2 text-black" type="email" placeholder="Email" value={user} onChange={(e) => setUser(e.target.value)} required />
             </div>
 
-            <div class="sm:flex sm:gap-2 "  >
+            <div class="flex gap-2 "  >
               <img src="/src/assets/lock.svg" width="16px" />
               <input class="sm:rounded-lg text-black" type="password" placeholder="Senha" value={senha} onChange={(e) => setSenha(e.target.value)} required />
             </div>
 
           </div>
-            <button class="hover:text-sky-400 sm:mt-2" id="entrar" onClick={Login} type="submit">  Entrar</button>
+            <button class="hover:text-sky-400 mt-2" id="entrar" onClick={Login} type="submit">  Entrar</button>
           <li class="list-none hover:text-sky-400"><NavLink to="/register" >Não tem conta? Registre-se</NavLink></li>
         </div>
       </section>
