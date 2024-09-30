@@ -4,7 +4,7 @@ import {Menu, X} from "lucide-react";
 
 const Navlinks = () => {
     return (
-        <><div>
+        <><div className="md:flex grid grid-rows-5 grid-flow-col md:gap-4 gap-8">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/login">Login</NavLink>
             <NavLink to="/circuitos">Circuitos</NavLink>
@@ -24,8 +24,8 @@ const Nav = () => {
 
     return (
         <>
-            <nav className="w-1/3 flex justify-end">
-                <div className="hidden md:flex justify-between">
+            <nav className="flex w-1/3 justify-end">
+                <div className="hidden justify-between md:flex">
                     <Navlinks />
                 </div>
                 <div className="md:hidden">
@@ -33,7 +33,7 @@ const Nav = () => {
                 </div>
             </nav>
             {isOpen && (
-                <div className="flex flex-col ">
+                <div className="flex basis-full flex-col items-center">
                     <Navlinks />
                 </div>
             )}
