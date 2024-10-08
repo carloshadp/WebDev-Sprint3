@@ -30,7 +30,7 @@ export default function Login() {
           <h2>Login</h2>
           <div class="gap-2">
             <div class="flex gap-2">
-            <img src="/assets/user.svg" width="16px" />
+            <img src="/assets/User.svg" width="16px" />
               <input class="rounded-lg mb-2 text-black" type="email" placeholder="Email" value={user} onChange={(e) => setUser(e.target.value)} required />
             </div>
 
