@@ -43,17 +43,17 @@ export default function Registrar() {
           <h2>Registre-se</h2>
           <div class="sm:flex sm:flex-col sm:gap-2 sm:p-3" >
             <div class="sm:flex sm:gap-2">
-              <img src="/src/assets/User.svg" width="16px" />
+              <img src="/assets/User.svg" width="16px" />
               <input class="rounded-lg border border-sky-700 text-black" type="email" placeholder="Email" value={criarUser} onChange={(e) => setNewUser(e.target.value)} required />
             </div>
 
             <div class="sm:flex sm:gap-2">
-              <img src="/src/assets/lock.svg" width="16px" />
+              <img src="/assets/lock.svg" width="16px" />
               <input class="rounded-lg border border-sky-700 text-black" type="password" placeholder="Senha" value={criarSenha} onChange={(e) => setNewSenha(e.target.value)} required />
             </div>
 
             <div class="sm:flex sm:gap-2">
-              <img src="/src/assets/lock.svg" width="16px" />
+              <img src="/assets/lock.svg" width="16px" />
               <input class="rounded-lg border border-sky-700 text-black" type="password" placeholder="Repetir senha" value={repetirSenha} onChange={(e) => setRepetirSenha(e.target.value)} required />
             </div>
           </div>
