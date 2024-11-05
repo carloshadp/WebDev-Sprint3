@@ -1,23 +1,23 @@
-import React, { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect, useState } from 'react';
 
 const CarRace = () => {
   const canvasRef = useRef(null);
   const [cars, setCars] = useState([
     { x: 0,
       y: 100, 
-      speed: Math.random() * 0.00005 + 0.012 },
+      speed: Math.random() * 0.05 + 0.012 },
     { x: 0,
       y: 135,
-      speed: Math.random() * 0.00005 + 0.012 },
+      speed: Math.random() * 0.05 + 0.012 },
     { x: 0,
       y: 185,
-      speed: Math.random() * 0.00005 + 0.012 },
+      speed: Math.random() * 0.05 + 0.012 },
     { x: 0,
       y: 235,
-      speed: Math.random() * 0.00005 + 0.012 },
+      speed: Math.random() * 0.05 + 0.012 },
     { x: 0,
       y: 270,
-      speed: Math.random() * 0.00005 + 0.012 },
+      speed: Math.random() * 0.05 + 0.012 },
   ]);
   const [countdown, setCountdown] = useState(3);
   const [winner, setWinner] = useState(null);
@@ -130,10 +130,10 @@ const CarRace = () => {
 
   return (
     <div>
-      <canvas ref={canvasRef} class="lg:w-3/6 lg:h-1/6 w-60 h-20 sm:w-3/5 sm:h-1/5 mt-36 rounded-lg" width={800} height={300} />
+      <canvas ref={canvasRef} className="lg:w-3/6 lg:h-1/6 w-60 h-20 sm:w-3/5 sm:h-1/5 mt-36 rounded-lg" width={800} height={300} />
       {countdown > 0 && <h1>Iniciando em: {countdown}</h1>}
       {winner && <h2>O Carro {winner} venceu!</h2>}
-      <button onClick={resetRace} class="mt-5 p-4 text-base bg-gradient-to-r from-cyan-800 to-blue-900 rounded-xl border border-black ">
+      <button onClick={resetRace} className="mt-5 p-4 text-base bg-gradient-to-r from-cyan-800 to-blue-900 rounded-xl border border-black ">
         Reiniciar Corrida
       </button>
     </div>
